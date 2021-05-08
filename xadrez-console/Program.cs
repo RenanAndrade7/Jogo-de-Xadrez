@@ -7,6 +7,8 @@ namespace xadrez_console {
         static void Main(string[] args) {
 
             try {
+
+                Console.WriteLine("Bem Vindo ao Jogo de Xadrez!!!");
                 PartidaDeXadrez partida = new PartidaDeXadrez();
 
                 while (!partida.terminada) {
